@@ -18,4 +18,4 @@ It aims to apply psychological healing methods to interactive games to help user
 
 
 ### Project Process
-![Project Process](/uploads/Process_2_1.png)
+![Project Process](/uploads/Process_2_1 .png)
