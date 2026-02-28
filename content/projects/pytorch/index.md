@@ -17,4 +17,4 @@ Using gesture recognition, players embody different fungal forms, establishing a
 It aims to apply psychological healing methods to interactive games to help users get out of the difficulties of intimate relationships.
 
 ### Project Process
-![Alternative Text](/media/Process_2_1.png)
+![Project Process](/uploads/Process_2_1.png)
