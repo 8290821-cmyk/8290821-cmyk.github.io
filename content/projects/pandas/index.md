@@ -1,15 +1,16 @@
 ---
-title: Pandas
-date: 2023-10-26
+title: Her care
+date: 2024-10 
 links:
-  - type: site
-    url: https://github.com/pandas-dev/pandas
+  - type: Video link
+    url: https://youtu.be/FYQAWVqpLyY?si=XtxXyEAjfSMj3AUG
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Mixed reality
+  - Doctor-patient relationship
+  - Interaction design
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+This project uses mixed reality technology and service design principles to redesign the breast cancer treatment process. 
+It aims to support both patients and doctors in surgical communication, helping women cope with body shame and feelings of helplessness after breast cancer.
 
 <!--more-->
