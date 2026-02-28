@@ -2,23 +2,23 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
+  display: Yufan Huang
+  given: Yufan
+  family: Huang
+  alternate: '黄钰番'  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: she/her
 postnominals:
   - PhD
   - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: MSc Student at KTH
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Huang Yufan is a dedicated researcher and student specializing in Human-Computer Interaction
+  and Virtual Reality. Currently pursuing an MSc at KTH Royal Institute of Technology, 
+  Yufan's work explores digital healthcare MR design, spatial positioning 
+  in VR, and the psychological impact of animation motions on character perception.
 
 affiliations:
   - name: Meta AI
@@ -46,24 +46,20 @@ interests:
   - AI Ethics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MSc Interactive Media Technology
+    institution: KTH Royal Institute of Technology, Sweden
+    start: 2025-09-01
+    end: 2027-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: BA Product Design
+    institution: Donghua University, China
+    start: 2021-09-01
+    end: 2025-06-30
+    summary: "Average Marks: 88/100. Honours: Second Prize Scholarship, First Prize, Second Prize, and Third Prize, 2024 Milan Design Week."
 
 experience:
   - role: Senior AI Research Scientist
