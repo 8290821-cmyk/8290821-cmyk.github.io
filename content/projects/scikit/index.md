@@ -1,15 +1,18 @@
 ---
-title: scikit-learn
-date: 2023-10-26
+title: Bird guarding
+date: 2023-02-19
 links:
-  - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+  - icon: youtube
+    icon_pack: fab
+    name: Watch Video
+    url: https://youtu.be/_cHQCSiVoG4?si=GxiAR-gWsYoRKI0d
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Product Design
+  - Mechanical Engineering
+  - Building facade
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+This project uses the special structure of fabrics and the force between gears to construct a modular building facade structure. 
+It aims to prevent birds from colliding with large areas of glass curtain walls in cities.
 
 <!--more-->
