@@ -64,6 +64,14 @@ education:
       Average Marks: 88/100. Honours: Second Prize Scholarship, First Prize, Second Prize, and Third Prize, 2024 Milan Design Week.
 
 experience:
+  - role: Undergraduate Research Assistant
+    org: Donghua university
+    start: 2024-6-01
+    end: 2024-12-10
+    summary: |
+      Contributed to a research project on phase-change ventilation clothing and its cooling performance in construction scenarios. 
+      Primarily responsible for experimental design and data collection. Served as the third author of a peer-reviewed core Chinese 
+      journal publication in Advanced Textile Technology (Chen et al., 2025).
   - role: Product Management Internship
     org: HEXAGON
     start: 2024-06-01
@@ -73,16 +81,22 @@ experience:
       Assisted in the design of three-coordinate teaching products to improve user interaction.
       Responsible for creating virtual digital personas for Hexagon's platform.
       Engaged in the optimization of virtual simulation prototypes to enhance their usability.
+  - role: Researcher (Course Project)
+    org: KTH Royal Institute of Technology
+    start: 2025-11-01
+    end: Present
+    summary: |
+      Conducted a research project examining the relationship between politeness strategies and spatial positioning in virtual 
+      reality group interactions. Following the course, the project was further developed under the supervision of 
+      Dr. Robin Palmberg (Postdoctoral Researcher at KTH), extending the investigation to explore how different 
+      virtual character animations influence the perception of politeness strategies.
     button:
-      text: View portfolio
+      text: Course poster
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+
+      
+  
 
 skills:
   - name: VR/Development
