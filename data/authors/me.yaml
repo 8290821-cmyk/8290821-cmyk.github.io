@@ -93,18 +93,7 @@ experience:
       text: Course reports and posters
       url: uploads/Report_Poster.pdf
       icon: hero/arrow-down-tray
-      
-awards:
-  - title: Design Patent - Building Facade for Preventing Bird Collisions
-    awarder: China National Intellectual Property Administration (CNIPA)
-    date: '2025-07-08'
-    summary: |
-      Awarded for the design of a modular building facade structure (Patent No: ZL 2024 3 0620185.0). 
-      The project utilizes innovative fabric structures to mitigate bird-window collisions in urban environments.
-    icon: hero/academic-cap # 或者使用 hero/trophy
-      
-  
-
+    
 skills:
   - name: VR/Development
     items:
@@ -130,7 +119,15 @@ skills:
       - label: SPSS
         level: 3
 
-
+Patents:
+  - title: Design Patent - Building Facade for Preventing Bird Collisions
+    awarder: China National Intellectual Property Administration (CNIPA)
+    date: '2025-07-08'
+    summary: |
+      Awarded for the design of a modular building facade structure (Patent No: ZL 2024 3 0620185.0). 
+      The project utilizes innovative fabric structures to mitigate bird-window collisions in urban environments.
+    icon: hero/academic-cap # 或者使用 hero/trophy
+  
 languages:
   - name: English
     level: 4
