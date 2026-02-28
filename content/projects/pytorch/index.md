@@ -1,6 +1,6 @@
 ---
 title: Fungal Fusion
-date: 2024-9-26
+date: 2024-09-26
 links:
   - type: site
     url: https://youtu.be/Q8ACQb9vJFw?si=2FQS5wfIw2-ApZYV
