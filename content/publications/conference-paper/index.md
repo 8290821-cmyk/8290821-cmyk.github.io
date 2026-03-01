@@ -46,9 +46,7 @@ links:
 ---
 
 ### Author Contribution
-Project Contribution
-In this research project, I served as the Primary Researcher and second Author. I led the end-to-end design process, from initial conceptualization to the final strategic framework:
+In this research project, I served as the **Primary Researcher and Lead Author**. I led the end-to-end design process, from initial conceptualization to the final strategic framework:
 
-Service Design & System Architecture: I conceptualized the entire intelligent reading space framework and developed the service blueprints. I conducted in-depth stakeholder analysis to align user needs with technological possibilities, ensuring a seamless integration of digital and physical services.
-
-User Research & Co-creation: I spearheaded the co-creation workshops, facilitating collaborative design sessions to iterate on the space's functionality. My role also involved leading the manuscript development and ensuring the academic rigor of the study's findings.
+* **Service Design & System Architecture**: I conceptualized the entire **intelligent reading space framework** and developed the **service blueprints**. I conducted in-depth **stakeholder analysis** to align user needs with technological possibilities.
+* **User Research & Co-creation**: I spearheaded the **co-creation workshops**, facilitating collaborative design sessions to iterate on functionality. I also led the **manuscript development** and ensured the academic rigor of the study's findings.
