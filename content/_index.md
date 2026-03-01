@@ -16,7 +16,7 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: /uploads/resume.pdf # 确认一下这里，之前建议改成 /uploads/resume.pdf
+        url: uploads/resume.pdf # 确认一下这里，之前建议改成 /uploads/resume.pdf
       headings:
         about: ''
         education: ''
