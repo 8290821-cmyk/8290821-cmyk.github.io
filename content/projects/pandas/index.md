@@ -15,4 +15,7 @@ tags:
 This project uses mixed reality technology and service design principles to redesign the breast cancer treatment process. 
 It aims to support both patients and doctors in surgical communication, helping women cope with body shame and feelings of helplessness after breast cancer.
 
-<!--more-->
+### Project Process
+![Project Process](/uploads/Process_1_1.png)
+### Project Display
+![Project Process](/uploads/Process_1_2.png)
