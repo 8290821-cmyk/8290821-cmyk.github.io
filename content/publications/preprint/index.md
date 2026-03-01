@@ -40,4 +40,8 @@ links:
 # 下面的 code, slides, dataset 等无效链接已全部删除，让页面保持整洁
 ---
 
-As a Research Assistant and the third author of this paper, I contributed significantly to the experimental design and played a pivotal role in overseeing the implementation of the research process. My responsibilities also included data acquisition, technical drawing and visualization, and collaborating on the manuscript drafting and refinement.
+In this research project, I served as a Research Assistant. I played a pivotal role in bridging the gap between theoretical experimental design and physical implementation:
+
+Experimental Execution & Data Acquisition: I oversaw the end-to-end research process, ensuring high-fidelity data collection and maintaining the integrity of the experimental environment.
+
+Technical Visualization: I was responsible for the technical drawing and data visualization, transforming complex research findings into clear, communicative diagrams for the manuscript.
