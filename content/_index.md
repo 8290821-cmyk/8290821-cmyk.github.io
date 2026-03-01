@@ -66,12 +66,3 @@ sections:
       view: citation
 
   # ----- 我已经帮你删掉了 Recent News 和 Recent & Upcoming Talks -----
-
-  # 这个是底部的广告卡片，建议也删掉或者把 demo 设为 false
-  - block: cta-card
-    demo: false 
-    content:
-      title: 👋 Get in Touch
-      text: |-
-        Feel free to reach out for collaborations!
----
