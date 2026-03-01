@@ -49,3 +49,4 @@ In this research project, I served as the **Lead Technical Researcher**. My work
 
 > [!NOTE]
 > This paper was developed as a final project for the Interactive Media Technology module at KTH.
+---
