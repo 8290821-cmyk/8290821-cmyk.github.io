@@ -1,6 +1,9 @@
 ---
 title: Her care
-date: 2024-10-04 
+date: 2024-10-04
+# 重点：在这里加上这一行
+share: false  
+# ------------------
 links:
   - icon: youtube
     icon_pack: fab
