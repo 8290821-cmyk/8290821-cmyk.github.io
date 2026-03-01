@@ -4,7 +4,6 @@ title: "Interpretation of the University Library New Intelligent Reading Space B
 authors:
   - "Tao Cheng"
   - "Yufan Huang"
-  - "Yanzhuo Chen" # 如果你是第三作者，请确保这里加上你的名字
 
 author_notes:
   - "Equal contribution"
@@ -13,7 +12,7 @@ author_notes:
 date: '2025-09-11'
 
 # 必须填数字 '2'，代表 Journal Article
-publication_types: ['2']
+publication_types: ['Journal Article']
 
 publication: "Journal of Hunan University of Science and Technology"
 publication_short: ""
