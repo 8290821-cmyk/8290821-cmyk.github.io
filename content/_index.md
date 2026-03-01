@@ -36,7 +36,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a graduate student at **KTH Royal Institute of Technology**, focusing on **HCI and Immersive Media**. My work explores how **Service Design** and **VR/MR** technologies can be integrated to solve real-world problems.
+        I explore how virtual environments and digital characters can be designed to improve human well-being and social interaction. From investigating user behavior in VR to developing interactive prototypes for digital healthcare, my goal is to create seamless and meaningful experiences. I enjoy combining technical development with empirical user research to understand the impact of emerging technologies on users.
     design:
       columns: '1'
 
@@ -46,7 +46,7 @@ sections:
       title: Featured Publications
       filters:
         folders:
-          - publication  # 如果你的文件夹叫 publications，请在这里加个 s
+          - publications  # 如果你的文件夹叫 publications，请在这里加个 s
         featured_only: true
     design:
       view: article-grid
@@ -58,7 +58,7 @@ sections:
       text: ''
       filters:
         folders:
-          - publication  # 如果你的文件夹叫 publications，请在这里加个 s
+          - publications  # 如果你的文件夹叫 publications，请在这里加个 s
         exclude_featured: false
     design:
       view: citation
