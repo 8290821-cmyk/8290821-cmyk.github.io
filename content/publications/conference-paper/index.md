@@ -40,7 +40,7 @@ links:
     icon_pack: ai
     icon: cnki
   - name: PDF
-    url: "/uploads/library-reading-space.pdf" # 建议修改文件名，不要带空格
+    url: "/uploads/Interpretation of the University Library New Intelligent Reading Space Based on the Perspective of Service Design.pdf" # 建议修改文件名，不要带空格
 
 # 保持下面为空
 ---
