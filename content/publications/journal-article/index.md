@@ -35,9 +35,9 @@ featured: false
 
 links:
   - name: Report
-    url: "uploads/Report"
+    url: "uploads/Report.pdf"
   - name: Poster
-    url: "uploads/Poster"
+    url: "uploads/poster(1).pdf"
 
 ---
 
