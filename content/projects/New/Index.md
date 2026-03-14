@@ -9,7 +9,7 @@ links:
   - icon: youtube
     icon_pack: fab
     name: Watch Video
-    url: https://youtu.be/FYQAWVqpLyY?si=XtxXyEAjfSMj3AUG
+    url: https://youtu.be/Z5pO_O1d4RE?si=o2ZDY0CgyJd38xHF
 tags:
   - Virtual reality
   - Sound interaction
