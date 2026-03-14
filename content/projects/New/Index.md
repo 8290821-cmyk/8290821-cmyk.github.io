@@ -20,7 +20,7 @@ This project uses an immersive VR environment where participants traverse a “c
 It aims to encourage users to reflect on their preferences and visions for future urban soundscapes by collecting and assembling different urban sound elements.
 
 ### Project Process
-![Project Process](/uploads/Process_1_1.png)
+![Project Process](/uploads/Process4_1.png)
 ### Project Display
-![Project Process](/uploads/Process_1_2.png)
+![Project Process](/uploads/Display4_2.png)
 
