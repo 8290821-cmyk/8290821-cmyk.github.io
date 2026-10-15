@@ -1,6 +1,6 @@
 {{ partial "academic/head.html" . }}
 <header class="detail-header"><a href="{{ `/` | relURL }}">Yufan Huang</a></header>
-<main id="main" class="paper-main">
+<main data-pagefind-body id="main" class="paper-main">
   {{ $slug := .Params.paper }}
   {{ range where site.Data.academic.papers "slug" $slug }}
   <a class="back-link" href="{{ `/` | relURL }}#publications">← Back to publications</a>

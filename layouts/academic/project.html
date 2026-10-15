@@ -1,6 +1,6 @@
 {{ partial "academic/head.html" . }}
 <header class="detail-header"><a href="{{ `/` | relURL }}">Yufan Huang</a></header>
-<main id="main" class="paper-main project-detail">
+<main data-pagefind-body id="main" class="paper-main project-detail">
   <a class="back-link" href="{{ `/` | relURL }}#projects">← Back to projects</a>
   <div class="paper-heading"><p class="status">Design project</p><h1>{{ .Title }}</h1><p class="meta">{{ delimit (.Params.tags | default slice) " · " }}</p></div>
   {{ if .Params.tiny }}<div class="tiny-art"><img src="{{ `figma/project-imgGroup662.png` | relURL }}" alt="Tiny Alchemists game artwork" width="639" height="293"></div>{{ end }}
