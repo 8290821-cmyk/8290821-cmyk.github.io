@@ -111,7 +111,13 @@
         ]
       ],
       "slug": "ventilation-clothing",
-      "pdf": "uploads/Cooling performance of phase change ventilation clothing in construction work.pdf"
+      "pdf": "uploads/Cooling performance of phase change ventilation clothing in construction work.pdf",
+      "links": [
+        {
+          "name": "View on CNKI",
+          "url": "https://oversea.cnki.net/kcms2/article/abstract?v=FeJ59O1VQJcHCFnnvbcXb1j6rHHEONuLP_SAtJFGcmYs8f0RTJhxgu0UlQpk7gpFkLG2VwZYjk4l2T2CeIBj9RKsOSiY4Nkwy-UktIDG6JZ_eeYXgoyhcIzIimknztniMhtEC2vdqDMOhbeFFrcDIOGzY08HQnaRQlauZG_Q6C5GUYLWnnBRUQ==&uniplatform=OVERSEA&language=EN"
+        }
+      ]
     },
     {
       "id": "4477:57",
@@ -137,7 +143,13 @@
         ]
       ],
       "slug": "library-service-design",
-      "pdf": "uploads/Interpretation of the University Library New Intelligent Reading Space Based on the Perspective of Service Design.pdf"
+      "pdf": "uploads/Interpretation of the University Library New Intelligent Reading Space Based on the Perspective of Service Design.pdf",
+      "links": [
+        {
+          "name": "View on CNKI",
+          "url": "https://oversea.cnki.net/kcms2/article/abstract?v=FeJ59O1VQJcHCFnnvbcXb1j6rHHEONuLP_SAtJFGcma3sz1gwgHN9kOBk80Y25hIsDAzk3irvC47Iih_uUKNSobuiavCvb0F3qz-nmhTyS88NavprrOFhrYaXv7GgOsi61g8TUeSp37chnFeMjh_mtSbTAjG5zG3VlLpiog_9QzKT_icOvRVuA==&uniplatform=OVERSEA&language=EN"
+        }
+      ]
     }
   ]
 }

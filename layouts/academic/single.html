@@ -10,6 +10,7 @@
       <section><h2>Role</h2><p>{{ .role }}</p></section>
       <section><h2>Affiliation / venue</h2><p>{{ .org }}</p></section>
       <section><h2>Topics</h2><p>{{ .tags }}</p></section>
+      {{ range .links }}<a class="pill" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }} ↗</a>{{ end }}
       {{ with .pdf }}<a class="pill" href="{{ . | relURL }}">Read paper (PDF) ↗</a>{{ end }}
     </aside>
     <div class="paper-narrative">{{ range .sections }}<section><h2>{{ index . 0 }}</h2><p>{{ index . 1 }}</p></section>{{ end }}</div>

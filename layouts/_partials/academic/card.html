@@ -1,7 +1,11 @@
-<a class="publication-card" href="{{ (printf `research/%s/` .slug) | relURL }}" aria-labelledby="title-{{ .slug }}">
+<article class="publication-card" aria-labelledby="title-{{ .slug }}">
   <span class="status">{{ .status }}</span>
-  <h3 id="title-{{ .slug }}">{{ .title }}</h3>
+  <h3 id="title-{{ .slug }}"><a href="{{ (printf `research/%s/` .slug) | relURL }}">{{ .title }}</a></h3>
   <p class="meta">{{ .meta }}</p>
   <p>{{ .summary }}</p>
-  <span class="pill">{{ if hasPrefix .status `PUBLISHED` }}View publication{{ else }}View research{{ end }} <span aria-hidden="true">→</span></span>
-</a>
+  <div class="publication-actions">
+    <a class="pill" href="{{ (printf `research/%s/` .slug) | relURL }}">{{ if hasPrefix .status `PUBLISHED` }}View publication{{ else }}View research{{ end }} <span aria-hidden="true">→</span></a>
+    {{ range .links }}<a class="pill" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }} ↗</a>{{ end }}
+    {{ with .pdf }}<a class="pill" href="{{ . | relURL }}">Read PDF ↗</a>{{ end }}
+  </div>
+</article>
