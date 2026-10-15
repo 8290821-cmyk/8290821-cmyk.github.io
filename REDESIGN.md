@@ -6,7 +6,7 @@ This branch implements Page 2 of the supplied Figma file using the existing Hugo
 
 Run the existing `pnpm dev` script with Hugo 0.156.0, Go, and Node available. For the preview prepared in this workspace, open http://127.0.0.1:4173/ while the local server is running.
 
-The homepage, five research pages, Tiny Alchemists page, and four existing project pages use the new layout. Other legacy pages remain available. The Figma avatar is still a placeholder. Tiny Alchemists has only the description and artwork currently supplied in Figma.
+The homepage, five research pages, Tiny Alchemists page, and four existing project pages use the new layout. Other legacy pages remain available. The homepage uses the supplied monochrome portrait with the latest Figma frame and icons. Tiny Alchemists includes the supplied artwork, a description based on the project website, and links to the project website and trailer. Published papers include CNKI and PDF links. The site icon uses the user-supplied logo.
 
 ## Edit
 

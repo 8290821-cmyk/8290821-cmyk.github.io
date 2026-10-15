@@ -6,6 +6,8 @@
   <title>{{ if .IsHome }}Yufan Huang — Research & Design{{ else }}{{ .Title }} · Yufan Huang{{ end }}</title>
   <meta name="description" content="{{ .Description | default .Summary | default `Yufan Huang — immersive and embodied interaction, human–AI interaction, and social interaction in games.` | plainify }}">
   <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" type="image/png" href="{{ `academic/site-icon.png` | relURL }}">
+  <link rel="apple-touch-icon" href="{{ `academic/site-icon.png` | relURL }}">
   <meta name="theme-color" content="#f6f6ff">
   {{ with resources.Get "dist/font/Inter.var.woff2" }}
   <style>@font-face{font-family:Inter;src:url('{{ .RelPermalink }}') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}</style>
