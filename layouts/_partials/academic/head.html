@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}Yufan Huang — Research & Design{{ else }}{{ .Title }} · Yufan Huang{{ end }}</title>
+  <meta name="description" content="{{ .Description | default .Summary | default `Yufan Huang — immersive and embodied interaction, human–AI interaction, and social interaction in games.` | plainify }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta name="theme-color" content="#f6f6ff">
+  {{ with resources.Get "dist/font/Inter.var.woff2" }}
+  <style>@font-face{font-family:Inter;src:url('{{ .RelPermalink }}') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}</style>
+  {{ end }}
+  <link rel="stylesheet" href="{{ `academic/site.css` | relURL }}">
+  <script src="{{ `academic/site.js` | relURL }}" defer></script>
+</head>
+<body class="{{ if .IsHome }}home{{ else }}detail{{ end }}">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="ambient" aria-hidden="true">
+  {{ if .IsHome }}
+  <img class="glow glow-purple" src="{{ `figma/home-imgEllipse3.svg` | relURL }}" alt="">
+  <img class="glow glow-yellow" src="{{ `figma/home-imgEllipse4.svg` | relURL }}" alt="">
+  <img class="glow glow-blue" src="{{ `figma/home-imgEllipse2.svg` | relURL }}" alt="">
+  <img class="glow glow-lower" src="{{ `figma/home-imgEllipse5.svg` | relURL }}" alt="">
+  <img class="glow glow-small" src="{{ `figma/home-imgEllipse6.svg` | relURL }}" alt="">
+  {{ else }}
+  <img class="glow glow-purple" src="{{ `figma/paper-imgEllipse3.svg` | relURL }}" alt="">
+  <img class="glow glow-yellow" src="{{ `figma/paper-imgEllipse4.svg` | relURL }}" alt="">
+  <img class="glow glow-blue" src="{{ `figma/paper-imgEllipse2.svg` | relURL }}" alt="">
+  {{ end }}
+</div>

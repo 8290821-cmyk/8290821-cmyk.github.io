@@ -1,4 +1,6 @@
 ---
+type: academic
+layout: project
 title: Bird guarding
 date: 2023-02-19
 # 重点：在这里加上这一行

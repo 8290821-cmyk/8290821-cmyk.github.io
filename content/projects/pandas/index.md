@@ -1,4 +1,6 @@
 ---
+type: academic
+layout: project
 title: Her care
 date: 2024-10-04
 # 重点：在这里加上这一行

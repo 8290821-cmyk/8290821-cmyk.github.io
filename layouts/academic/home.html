@@ -1,0 +1,75 @@
+{{ partial "academic/head.html" . }}
+<header class="site-header">
+  <nav aria-label="Main navigation">
+    <a href="#bio" aria-current="location">Bio</a>
+    <img src="{{ `figma/home-imgVector4.svg` | relURL }}" alt="" aria-hidden="true">
+    <a href="#publications">Research experience</a>
+    <img src="{{ `figma/home-imgVector4.svg` | relURL }}" alt="" aria-hidden="true">
+    <a href="#projects">Design project</a>
+  </nav>
+</header>
+<main id="main">
+  <section id="bio" class="bio" aria-label="Biography">
+    <aside class="profile">
+      <img class="avatar" src="{{ `figma/home-img.svg` | relURL }}" alt="Portrait placeholder from the current design" width="261" height="261">
+      <h1>Yufan Huang</h1>
+      <div class="profile-links">
+        <a href="https://github.com/8290821-cmyk" aria-label="Yufan Huang on GitHub"><img src="{{ `figma/home-imgGithubFill1.svg` | relURL }}" alt="" width="33" height="33"></a>
+        <a href="mailto:yufanh@kth.se" aria-label="Email Yufan Huang"><img src="{{ `figma/home-img3.svg` | relURL }}" alt="" width="44" height="44"></a>
+        <a class="cv-button" href="{{ `uploads/yufan-huang-cv.pdf` | relURL }}" download>CV download</a>
+      </div>
+      <ul class="interests" aria-label="Research interests">
+        <li># Immersive and Embodied Interaction</li>
+        <li># Human–AI Interaction</li>
+        <li># Social Interaction in Games</li>
+      </ul>
+    </aside>
+    <div class="biography">
+      <section class="summary">
+        <h2 class="bio-heading"><img src="{{ `figma/home-img2.svg` | relURL }}" alt="" width="26" height="26">Professional Summary</h2>
+        <img class="bio-rule" src="{{ `figma/home-imgVector1.svg` | relURL }}" alt="">
+        <p>I am a master’s student in Interactive Media Technology at KTH Royal Institute of Technology, with a background in product design. My research interests lie in immersive and embodied interaction, human–AI interaction, and social interaction in games. I explore how people perceive, respond to, and make decisions when interacting with virtual agents and AI systems. My recent work examines social agents in VR, visible self-repair in conversational AI, and prosocial lying in games. I combine interactive prototyping with user studies and behavioural data analysis to understand these interactions and inform their design.</p>
+      </section>
+      <section class="education">
+        <h2 class="bio-heading"><img src="{{ `figma/home-img1.svg` | relURL }}" alt="" width="33" height="33">Education</h2>
+        <img class="bio-rule" src="{{ `figma/home-imgVector1.svg` | relURL }}" alt="">
+        <div class="education-content">
+          <img class="timeline" src="{{ `figma/home-imgGroup2.svg` | relURL }}" alt="">
+          <ol>
+            <li><div class="education-top"><h3>KTH Royal Institute of Technology, Sweden</h3><span>09/2025–06/2027</span></div><p class="degree">MSc Interactive Media Technology</p><p>All grades A to date</p></li>
+            <li><div class="education-top"><h3>Donghua University, China</h3><span>09/2021–06/2025</span></div><p class="degree">BA Product Design</p><p>Average Marks: 88/100 (Rank: Top 20%)<br>Honours: Second Prize Scholarship; First, Second and Third Prizes, 2024 Milan Design Week China Non-Thematic Track for University Design Disciplines</p></li>
+          </ol>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section id="publications" class="content-section" aria-labelledby="publications-heading">
+    <h2 id="publications-heading" class="section-heading">Publications</h2>
+    <img class="section-rule" src="{{ `figma/home-imgVector6.svg` | relURL }}" alt="">
+    <p class="section-intro">Selected research, manuscripts and published work.</p>
+    <h3 class="group-label">Current research & manuscripts</h3>
+    <div class="publication-list">{{ range first 3 site.Data.academic.papers }}{{ partial "academic/card.html" . }}{{ end }}</div>
+    <h3 class="group-label published-label">Published papers</h3>
+    <div class="publication-list">{{ range last 2 site.Data.academic.papers }}{{ partial "academic/card.html" . }}{{ end }}</div>
+    <p class="research-signoff">Yufan Huang · Research & publications</p>
+  </section>
+  <section id="projects" class="content-section projects" aria-labelledby="projects-heading">
+    <h2 id="projects-heading" class="section-heading">Other projects</h2>
+    <img class="section-rule" src="{{ `figma/home-imgVector6.svg` | relURL }}" alt="">
+    <div class="project-grid">
+      <a class="project-card tiny-card" href="{{ `design/tiny-alchemists/` | relURL }}">
+        <div class="tiny-art"><img src="{{ `figma/project-imgGroup662.png` | relURL }}" alt="Tiny Alchemists game artwork" width="639" height="293" loading="lazy"></div>
+        <div class="project-caption"><h3>Tiny Alchemists</h3><p>Multiplayer 3D game · Cooperate with your teammate to create your own potion!</p><span class="text-link">Explore project →</span></div>
+      </a>
+      {{ range where site.RegularPages "Section" "projects" }}
+      {{ $projectTitle := .Title }}
+      <a class="project-card" href="{{ .RelPermalink }}">
+        {{ with .Resources.GetMatch "featured.*" }}<img class="project-image" src="{{ .RelPermalink }}" alt="{{ $projectTitle }} project artwork" width="499" height="280" loading="lazy">{{ end }}
+        <div class="project-caption"><h3>{{ .Title }}</h3><p>{{ delimit (.Params.tags | default slice) " · " }}</p><span class="text-link">Explore project →</span></div>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><span>Yufan Huang</span><a href="mailto:yufanh@kth.se">yufanh@kth.se</a><a href="#bio">Back to top ↑</a></footer>
+</body></html>

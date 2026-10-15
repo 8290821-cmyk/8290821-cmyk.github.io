@@ -1,0 +1,143 @@
+{
+  "papers": [
+    {
+      "id": "4477:53",
+      "title": "Agent Politeness, Spatial Decision-Making, and Cognitive Load in VR",
+      "status": "IN PREPARATION",
+      "meta": "KTH Royal Institute of Technology · Jun 2026–Present",
+      "summary": "How do embodied social agents’ politeness strategies influence spatial decisions and cognitive load in VR?",
+      "role": "Research Intern",
+      "org": "Embodied Social Agents Lab (ESAL)\nKTH Royal Institute of Technology",
+      "tags": "Virtual reality\nEmbodied interaction\nSocial agents",
+      "sections": [
+        [
+          "Overview",
+          "I investigate how embodied social agents’ politeness strategies influence people’s spatial decision-making and cognitive load in virtual reality."
+        ],
+        [
+          "My contribution",
+          "I designed and developed a Unity-based VR experimental platform, implemented multi-stage agent requests and trial transitions, and integrated physiological recording with logs of trial events and participants’ spatial choices. I also lead experimental data collection and analysis."
+        ],
+        [
+          "Approach",
+          "Interactive prototyping in Unity; controlled user studies; behavioural and physiological measures."
+        ],
+        [
+          "Current stage",
+          "First author of a methodology paper proposal submitted to HCII 2027. The full manuscript is in preparation."
+        ]
+      ],
+      "slug": "vr-social-agents"
+    },
+    {
+      "id": "4477:54",
+      "title": "Visible Self-Repair in Conversational AI Agents",
+      "status": "SUBMITTED TO CHI 2027",
+      "meta": "City University of Hong Kong · Jun–Sep 2026 · Co-first author",
+      "summary": "A controlled study with 60 participants exploring how visible self-repair in conversational AI affects users’ perceptions and behaviour.",
+      "role": "Research Intern · Remote\nCo-first author",
+      "org": "Studio for Narrative Spaces\nCity University of Hong Kong",
+      "tags": "Human–AI interaction\nConversational agents\nUser studies",
+      "sections": [
+        [
+          "Overview",
+          "This project examines how visible self-repair in conversational AI agents affects users’ perceptions and behaviour. We collaboratively designed a controlled study with 60 participants."
+        ],
+        [
+          "My contribution",
+          "I led study coordination and experimental sessions, built a web-based backend for interaction-log collection, and conducted the primary analysis of behavioural log data."
+        ],
+        [
+          "Research communication",
+          "As co-first author, I contributed to key findings and conclusions, research figures, and the accompanying video."
+        ],
+        [
+          "Current stage",
+          "The manuscript has been submitted to CHI 2027."
+        ]
+      ],
+      "slug": "conversational-ai-self-repair"
+    },
+    {
+      "id": "4477:55",
+      "title": "Lying in Games: Exploring Prosocial Lying",
+      "status": "WORK IN PROGRESS",
+      "meta": "City University of Hong Kong · Research collaboration · Sep 2026–Present",
+      "summary": "Exploring how prosocial lies to NPCs in Stardew Valley shape players’ perceptions and subsequent in-game behaviour.",
+      "role": "Research collaborator\nManuscript co-author",
+      "org": "In collaboration with\nStudio for Narrative Spaces\nCity University of Hong Kong",
+      "tags": "Social interaction in games\nNPCs\nProsocial lying",
+      "sections": [
+        [
+          "Overview",
+          "We investigate how players’ choices to tell prosocial lies to NPCs in Stardew Valley shape their perceptions and subsequent in-game behaviour."
+        ],
+        [
+          "Research focus",
+          "The project examines social decisions within a game and considers potential implications for behaviour beyond the game."
+        ],
+        [
+          "My contribution",
+          "I am co-authoring the manuscript as part of this ongoing research collaboration."
+        ],
+        [
+          "Current stage",
+          "Work in progress. The manuscript is being prepared for a planned submission to CHI PLAY 2027."
+        ]
+      ],
+      "slug": "prosocial-lying"
+    },
+    {
+      "id": "4477:56",
+      "title": "Cooling performance of phase change ventilation clothing in construction work",
+      "status": "PUBLISHED · 2025",
+      "meta": "Advanced Textile Technology · 33(7), 109–116 · In Chinese",
+      "summary": "Research on the cooling performance of phase change ventilation clothing for construction work.",
+      "role": "Co-author",
+      "org": "Advanced Textile Technology\nVolume 33, Issue 7\nPages 109–116 · 2025",
+      "tags": "Cooling performance\nVentilation clothing\nConstruction work",
+      "sections": [
+        [
+          "Overview",
+          "This publication addresses the cooling performance of phase change ventilation clothing in the context of construction work."
+        ],
+        [
+          "Publication record",
+          "Chen, Y., Xu, M., Huang, Y., et al. (2025). Cooling performance of phase change ventilation clothing in construction work. Advanced Textile Technology, 33(7), 109–116."
+        ],
+        [
+          "Language",
+          "Published in Chinese."
+        ]
+      ],
+      "slug": "ventilation-clothing",
+      "pdf": "uploads/Cooling performance of phase change ventilation clothing in construction work.pdf"
+    },
+    {
+      "id": "4477:57",
+      "title": "Interpretation of the University Library New Intelligent Reading Space from the Perspective of Service Design",
+      "status": "PUBLISHED · 2025",
+      "meta": "Theory and Practice of Contemporary Education · 17(4), 89–95 · In Chinese",
+      "summary": "A service design perspective on new intelligent reading spaces in university libraries.",
+      "role": "Co-author",
+      "org": "Theory and Practice of\nContemporary Education\nVolume 17, Issue 4\nPages 89–95 · 2025",
+      "tags": "Service design\nReading spaces\nUniversity libraries",
+      "sections": [
+        [
+          "Overview",
+          "This publication considers new intelligent reading spaces in university libraries from the perspective of service design."
+        ],
+        [
+          "Publication record",
+          "Tao, C., Huang, Y., et al. (2025). Interpretation of the University Library New Intelligent Reading Space from the Perspective of Service Design. Theory and Practice of Contemporary Education, 17(4), 89–95."
+        ],
+        [
+          "Language",
+          "Published in Chinese."
+        ]
+      ],
+      "slug": "library-service-design",
+      "pdf": "uploads/Interpretation of the University Library New Intelligent Reading Space Based on the Perspective of Service Design.pdf"
+    }
+  ]
+}

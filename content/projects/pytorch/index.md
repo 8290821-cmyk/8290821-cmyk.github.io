@@ -1,4 +1,6 @@
 ---
+type: academic
+layout: project
 title: Fungal Fusion
 date: 2024-09-26
 # 重点：在这里加上这一行

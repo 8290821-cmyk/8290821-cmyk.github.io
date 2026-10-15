@@ -1,0 +1,7 @@
+<a class="publication-card" href="{{ (printf `research/%s/` .slug) | relURL }}" aria-labelledby="title-{{ .slug }}">
+  <span class="status">{{ .status }}</span>
+  <h3 id="title-{{ .slug }}">{{ .title }}</h3>
+  <p class="meta">{{ .meta }}</p>
+  <p>{{ .summary }}</p>
+  <span class="pill">{{ if hasPrefix .status `PUBLISHED` }}View publication{{ else }}View research{{ end }} <span aria-hidden="true">→</span></span>
+</a>
